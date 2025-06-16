@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Official website of Lyrical Dragon – Music, Videos, Merch, and More.">
+  <title>Lyrical Dragon | Official Site</title>
+
+  <!-- Fonts and Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/mobirise/css/style.css">
+
+  <!-- Favicons -->
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Lyrical Dragon</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#music">Music</a></li>
+          <li class="nav-item"><a class="nav-link" href="#video-5-uNDgbgxUAB">Videos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section text-center text-white d-flex align-items-center justify-content-center" style="height:100vh; background: url('assets/images/hero-bg.jpg') center/cover no-repeat;">
+    <div class="overlay bg-dark bg-opacity-50 position-absolute top-0 start-0 w-100 h-100"></div>
+    <div class="position-relative">
+      <h1 class="display-4 fw-bold">I Wasn’t Born a Dragon. I Became One.</h1>
+      <p class="lead">Listen. Watch. Rise.</p>
+      <a href="#music" class="btn btn-primary mt-3">Explore Music</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">About the Artist</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="assets/images/artist.jpg" alt="Lyrical Dragon - Artist Portrait" class="img-fluid rounded">
+        </div>
+        <div class="col-md-6">
+          <p>Lyrical Dragon—once known as Chance—isn’t just a rapper. He’s a myth in motion. With roots scorched by hardship and a voice that sets stages ablaze, Dragon’s music challenges systems, rattles cages, and rolls the dice with fire.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Music Section -->
+  <section id="music" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Music</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <img src="assets/images/album1.jpg" alt="Nowhere Is Safe Album Cover" class="img-fluid" loading="lazy">
+          <p class="mt-2">Nowhere Is Safe</p>
+          <a href="https://music.apple.com" target="_blank" class="btn btn-outline-light">Listen Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Section -->
+  <section id="video-5-uNDgbgxUAB" class="py-5 bg-dark text-white">
+    <div class="container text-center">
+      <h2 class="mb-4">Watch the Latest</h2>
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="Dragon Music Video" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact</h2>
+      <form action="/" method="POST" data-netlify="true">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <small>&copy; 2025 Lyrical Dragon. All rights reserved.</small>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      if (location.hash) document.querySelector(location.hash)?.scrollIntoView();
+    });
+  </script>
+</body>
+</html>
